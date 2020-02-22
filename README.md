@@ -31,7 +31,7 @@ TASK # 4:
 
 SELECT student_id, name, surname, birth_date, faculty 
 FROM student
-WHERE studen_id IN ( 
+WHERE student_id IN ( 
 		SELECT student_id 
 		FROM exam_results
 		WHERE grade>4)
