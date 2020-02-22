@@ -1,5 +1,5 @@
 # rocheTask
-task for Junior DataScientist @ Roche
+Task for Junior DataScientist @ Roche Poznan - Wielkopolska Poznan
 
 TASK # 1:
 
