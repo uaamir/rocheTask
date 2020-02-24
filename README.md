@@ -23,11 +23,21 @@ Methodology
 
 
 TASK # 2:
+Natral Language Processing Task
+The objective is to use a classifier to segregate the data into sarcastic and non-sarcastic headlines. It is a supervised problem as we know the target label but unlike IRIS flower dataset the data here is textual and not numbers. This makes the pre-processing more chanllenging as we need to use some library like the ntlk text classification which I have used for stop words only.
+This solution is needs more refine feature extraction for a faster performance.
+
+Methodology
+1. Load the JSON file
+2. Splitting into Train and Test
+3. Filtering the Corpus of Text based on removing the words
+4. Calculating features for each Token
+5. training the Naive Bayes Classifier
 
 
 
 
-TASK # 4:
+TASK # 3:
 
 SELECT student_id, name, surname, birth_date, faculty 
 FROM student
