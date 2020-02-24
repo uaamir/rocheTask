@@ -35,6 +35,11 @@ Methodology
 5. training the Naive Bayes Classifier
 
 
+This solution has a number of issues that can be improved
+1. The feature extraction process can be optimized to have some representation of Bit Vector for faster access
+2. The choice of classifier can be a neural network with back propagation that once trained may be incrementally up trained.
+
+
 
 
 TASK # 3:
