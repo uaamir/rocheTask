@@ -23,7 +23,8 @@ Methodology
 
 
 TASK # 2:
-Natral Language Processing Task
+
+Natral Language Processing Task:
 The objective is to use a classifier to segregate the data into sarcastic and non-sarcastic headlines. It is a supervised problem as we know the target label but unlike IRIS flower dataset the data here is textual and not numbers. This makes the pre-processing more chanllenging as we need to use some library like the ntlk text classification which I have used for stop words only.
 This solution is needs more refine feature extraction for a faster performance.
 
@@ -36,7 +37,7 @@ Methodology
 
 
 This solution has a number of issues that can be improved
-1. The feature extraction process can be optimized to have some representation of Bit Vector for faster access
+1. The feature extraction process can be optimized to have some feature reduction like a PCA and further represent the feature in a Bit Vector for faster access
 2. The choice of classifier can be a neural network with back propagation that once trained may be incrementally up trained.
 
 
