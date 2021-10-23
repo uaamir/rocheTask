@@ -1,5 +1,5 @@
 # rocheTask
-Task for Junior DataScientist @ Roche Poznan - Wielkopolska Poznan
+Task for Junior DataScientist @' Iris Classification
 
 TASK # 1:
 
